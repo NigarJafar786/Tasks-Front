@@ -1,0 +1,104 @@
+.form {
+   /* width: 448px; */
+   min-height: 814px;
+   margin: 5px;
+   border: 10px solid yellow;
+   padding: 5px;
+   box-shadow: 20px 20px 20px blue;
+   display: inline-block;
+}
+label{
+display: inline-block;
+width: 200px;
+line-height: 2;
+
+} */
+
+ input{
+    padding: 15px 150px 15px 10px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.input_group{
+    margin: 25px;
+}
+
+.colortext{
+    color: red;
+}
+ 
+
+
+.form2{
+    width: 448px;
+    min-height: 340.01px;
+    border: 10px solid red;
+    margin:5px;
+    padding: 40px;
+    box-shadow: 20px 20px 20px blue;
+    display: inline-block;
+}
+.label2{
+    display: inline-block;
+    /* width: 100px; */
+    line-height: 4px;
+}
+
+.input2{
+    padding: 15px 40px 15px 10px;
+    border-radius: 10px;
+    /* width: 350px; */
+    margin-left: 5px;
+}
+
+.input_group2{
+    margin: 30px;
+   
+}
+
+.form3{
+    /* width: 448px; */
+    min-height: 474px;
+    border:10px solid yellow;
+    margin: 5px;
+    box-shadow: 20px 20px 20px blue;
+    display: inline-block;
+    padding: 60px 60px 10px 60px;
+}
+
+.labeel3{
+
+   width: 100px;
+   line-height: 4px;
+}
+
+.input3{
+    border-radius: 5px;
+    padding: 10px 100px 10px 70px;
+    margin: 12px;
+}
+
+
+.form4{
+    /* width:448px ; */
+    min-height: 545px;
+    border: 10px solid green;
+    margin: 5px;
+    box-shadow: 20px 20px 20px blue;
+    display: inline-block;
+    padding: 60px 60px 10px 60px;
+}
+
+.input4{
+  margin: 15px;
+  border-radius: 5px;
+  padding: 10px 100px 10px 50px;
+}
+
+.input_group4{
+    margin: 15px;
+}
+.label4{
+    display: inline-block;
+}
