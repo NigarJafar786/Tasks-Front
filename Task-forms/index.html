@@ -1,128 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+<style>
+table, td, th {
+  border: 1px solid;
+}
 
+table {
+  width: 900px;
+  height: 300px;
+  border-collapse: collapse;
+
+}
+</style>
 </head>
-
 <body>
-    <form class="form">
+  
+    <table>
+        
+        
+      <tr>
+        <td align="center" rowspan="2" >State of Health</td>
+        <td align="center" colspan="2" >Fasting Value </td>
+        <td align="center">After Eating</td>
+      </tr>
+        <tr>
+        <td align="center">Minimum</td>
+        <td align="center">Maximum</td>
+        <td align="center">2 hours after eating</td>
+        </tr>
 
-        <div class="input_group">
-            <label for="f_name">First Name<span class="colortext">*</span></label><br>
-            <input type="text" name="" id="f_name" placeholder="Enter text" />
-        </div>
+      <tr>
+        <td align="center">Healthy</td>
+        <td align="center">70</td>
+        <td align="center">100</td>
+        <td align="center">Less than 140</td>
+      </tr>
 
-        <div class="input_group">
-            <label for="l_name">Last Name<span class="colortext">*</span></label><br>
-            <input type="text" name="" id="l_name" placeholder="Enter text" />
-        </div>
+    <tr>
+        <td align="center">Pre-Diabetes</td>
+        <td align="center">101</td>
+        <td align="center">126</td>
+        <td align="center">140 to 200</td>
+    </tr>
 
-        <div class="input_group">
-            <label for="cmp">Company </label><br>
-            <input type="text" name="" id="cmp" placeholder="Enter text" />
-        </div>
-
-        <div class="input_group">
-            <label for="adrs">Address<span class="colortext">*</span></label><br>
-            <input type="text" name="" id="adrs" placeholder="Enter text" />
-        </div>
-
-        <div class="input_group">
-            <label for="aprt">Apartment,suit,etc. </label><br>
-            <input type="text" name="" id="aprt" placeholder="Enter text" />
-        </div>
-
-        <div class="input_group">
-            <label for="city">City<span class="colortext">*</span></label><br>
-            <input type="text" name="" id="city" placeholder="Enter text" />
-        </div>
-
-        <div class="input_group">
-            <label for="country_r">Country/Region<span class="colortext">*</span></label><br>
-            <input type="search" name="" id="country_r" placeholder="Select Country" />
-        </div>
-
-    </form>
-
-
-    <form class="form2">
-
-        <div class="input_group2">
-            <label for="Name2" classs="label2"></label>
-            <input type="text" id="name2" class="input2" placeholder="Name" />
-        </div>
-
-        <div class="input_group2">
-            <label for="email2" class="label2"></label>
-            <input type="email" id="email2" class="input2" placeholder="Email" />
-        </div>
-
-        <div class="input_group2">
-            <label for="password2" class="label2"></label>
-            <input type="password" id="password2" class="input2" placeholder="Password" />
-        </div>
-
-        <div class="input_group2">
-            <input type="checkbox" class="input2" />
-            <span>I would like to receive a monthly newsletter</span>
-        </div>
-
-    </form>
-
-    <form class="form3">
-        <label class="label3" for="Email3">Email</label><br>
-        <input type="email" class="input3" id="email3" placeholder="Enter text" />
-
-        <p> Ship to </p>
-
-        <input type="radio" class="input3"><span>221B Baker St., London, U.K.</span><br>
-        <input type="radio" class="input3"><span>32 Windsor Gardens, London, U.K.</span><br>
-        <input type="radio" class="input3"><span>17 Cherry Tree Lane, London, U.K.</span><br>
-
-        <p>Delivery</p>
-
-        <input type="radio" class="input3"><span>Standard Shipping</span><br>
-        <input type="radio" class="input3"><span>2-Day Shipping</span><br>
-        <input type="radio" class="input3"><span>Overnight Shipping</span><br>
-
-
-
-    </form>
-
-    <form class="form4">
-        <div class="input_group4">
-            <input type="radio" id="choice1" class="input4" />
-            <label for="choice1" class="label4">One way</label>
-
-            <input type="radio" id="choice2" class="input4" />
-            <label for="choice2" class="label4">Round trip</label>
-        </div>
-
-        <div class="input_group4">
-            <label for="from" class="label4">From</label><br>
-            <input type="text" id="from" class="input4" placeholder=Select Option />
-        </div>
-
-        <div class="input_group4">
-            <label for="to" class="label4">To</label><br>
-    1
-            <input type="text" id="to" class="input4" placeholder=Select Option />
-        </div>
-
-        <div class="input_group4">
-            <label for="departure" class="label4">Departure</label><br>
-            <input type="text" id="departure" class="input4" placeholder="mm/dd/yyyy" />
-        </div>
-
-        <div class="input_group4">
-            <label for="return" class="label4">Return</label><br>
-            <input type="text" id="return" class="input4" placeholder="mm/dd/yyyy" />
-        </div>
-    </form>
-
-
+    <tr>
+        <td align="center">Diabetes</td>
+        <td align="center">More than 126</td>
+        <td align="center">N/A</td>
+        <td align="center">More than 200</td>
+    </tr>
+    </table>
 </body>
-
 </html>

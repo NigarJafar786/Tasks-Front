@@ -1,0 +1,89 @@
+
+.header{
+    display: flex;
+}
+.back-image{
+    width: 100%;
+    height: 1000px;
+    background-image: url('./blue.png');
+}
+
+.menu-item,.nav{
+    display: inline-block;
+    color: white;
+   
+}
+li{
+    color: white;
+    text-decoration: none;
+}
+
+.boxparent{
+    display: flex;
+    justify-content: space-around;
+}
+.boxleft{
+    color: white;
+    font-size: xx-large;
+    margin-left: 80px;
+    align-items: center;
+    align-content: center;
+   
+}
+
+.button{
+    width: 450px;
+    height: 90px;
+    border-radius: 5px;
+   font-size: larger;
+   margin-right: 100px;
+}
+
+.video{
+    font-size: larger;
+   
+}
+.button :hover{
+ color: blue;
+     
+}
+
+.header{
+   position: sticky;
+}
+
+.back-image2{
+    width: 100%;
+    height: 1500px;
+    background-image: url('./smoke.jpg');
+}
+
+.boxes{
+    display: flex;
+    justify-content:space-between;
+}
+
+.rightside,.span,.span1,.heading{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.rectangle{
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+/* .cards{
+    display: inline-block; */
+}
