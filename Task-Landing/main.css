@@ -1,89 +1,215 @@
-
-.header{
-    display: flex;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.back-image{
+
+.bg-image{
     width: 100%;
-    height: 1000px;
-    background-image: url('./blue.png');
-}
-
-.menu-item,.nav{
-    display: inline-block;
-    color: white;
-   
-}
-li{
-    color: white;
-    text-decoration: none;
-}
-
-.boxparent{
+    height: 400px;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-around;
-}
-.boxleft{
-    color: white;
-    font-size: xx-large;
-    margin-left: 80px;
-    align-items: center;
-    align-content: center;
-   
+    justify-content: space-between;  
 }
 
 .button{
-    width: 450px;
-    height: 90px;
-    border-radius: 5px;
-   font-size: larger;
-   margin-right: 100px;
-}
-
-.video{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
     font-size: larger;
-   
-}
-.button :hover{
- color: blue;
-     
+    color: blue;
+    margin-right: 20px;
+
 }
 
-.header{
-   position: sticky;
-}
-
-.back-image2{
-    width: 100%;
-    height: 1500px;
-    background-image: url('./smoke.jpg');
-}
-
-.boxes{
+.inputline{
     display: flex;
-    justify-content:space-between;
+    background-color: rgb(199, 196, 196);
+    width: 300px;
+    
+    
+}
+.boks{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    margin-right: 5px;
 }
 
-.rightside,.span,.span1,.heading{
-    display: flex;
+.boks:hover{
+    background-color: rgb(69, 69, 236);
 }
 
-.info{
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-}
-
-.rectangle{
+.watch{
+    color: #fff;
     display: inline-block;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    font-size: larger;
+
+}
+
+
+.button:hover{
+    background-color:rgb(113, 113, 163);
+}
+
+.container {
+    width: 90%;
+    margin: 0px 40px;
+    padding: 0 30px;
+  }
+
+  .header{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(3, 3, 88);
+    position: sticky;
+    top: 0;
+  }
+  .top_menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_menu{
+    display: flex;
+    /* justify-content: ; */
     align-items: center;
-    max-width: 900px;
-    height: 250px;
-    border: 1px solid black;
-    border-radius: 2px;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
 }
-/* .cards{
-    display: inline-block; */
+
+
+.logo{
+    margin-right: 80px;
 }
+
+.material-symbols-outlined{
+    color: white;
+}
+
+  .menu{
+    display: flex;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .menu__item{
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: larger;
+  }
+
+  .bg-image{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    background-image: url('./blue_banner.webp');
+  }
+
+  .parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .parentleft{
+    max-width: 600px;
+    
+  }
+
+  .parentright{
+    width: 500px;
+    height: auto;
+  }
+
+  .parentright img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .texth{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .headtext{
+    font-size: 48px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .textp{
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .ptext{
+    margin: 20px 0;
+    color: black;
+    font-weight: 500;
+  }
+
+  .card{
+    width: 350px;
+    height: 150px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px 25px 5px 10px;
+    transition: box-shadow .3s;
+    
+  }
+
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services{
+    text-align: center;
+    margin: 30px 0;
+  }
+  .services_btn{
+    padding: 15px 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid blue;
+  }
+
+  .secondsection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .right{
+    max-width: 600px;
+    
+  }
+
+  .right img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .comments{
+    padding-bottom: 20px;
+    padding-top: 5px;
+  }
+
+  .info{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
